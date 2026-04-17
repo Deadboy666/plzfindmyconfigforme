@@ -14,4 +14,4 @@ FlatpakSLSsteamConfigDir=$HOME/.var/app/com.valvesoftware.Steam/.config/SLSsteam
                 }
  makeheadcrabd
  echo ".headcrabd File Created In SLSsteam Config Directory."
- echo "This Will Make Headcrab Respect User Config Settings In Updates."
+ echo "This Will Make Headcrab Respect User Config Settings For Future Updates."
