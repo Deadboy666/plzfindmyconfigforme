@@ -6,11 +6,10 @@ FlatpakSLSsteamConfigDir=$HOME/.var/app/com.valvesoftware.Steam/.config/SLSsteam
 
     OpenSLSsteamDir(){
             if [ -d "$FlatpakSLSsteamConfigDir" ]; then
-                 $FlatpakSLSsteamConfigDir/
+                 cd $FlatpakSLSsteamConfigDir/
             else
-                    $SLSsteamConfigDir/
+                   cd  $SLSsteamConfigDir/
                 fi
-                    echo "" &> /dev/null
+                    ls
                 }
-
-cd OpenSLSsteamDir
+OpenSLSsteamDir
