@@ -12,4 +12,4 @@ FlatpakSLSsteamConfigDir=$HOME/.var/app/com.valvesoftware.Steam/.config/SLSsteam
                 fi
                     ls
                 }
-OpenSLSsteamDir
+echo "$OpenSLSsteamDir"
